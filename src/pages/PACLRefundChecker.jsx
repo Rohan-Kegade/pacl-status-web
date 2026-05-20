@@ -1,6 +1,8 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import HowItWorks from "../components/HowItWorks";
+import ExcelUploadCard from "../components/ExcelUploadCard";
+import CheckJobStatusCard from "../components/CheckJobStatusCard";
 
 export default function PACLRefundChecker() {
   return (
@@ -8,7 +10,9 @@ export default function PACLRefundChecker() {
       <Header />
 
       <main>
-        <HowItWorks/>
+        <HowItWorks />
+        <ExcelUploadCard />
+        <CheckJobStatusCard />
       </main>
 
       <Footer />
