@@ -1,12 +1,12 @@
-import './App.css'
+import "./App.css";
+import PACLRefundChecker from "./pages/PACLRefundChecker";
 
 function App() {
-
   return (
     <>
-      <h1>PACL Refund Status Check</h1>
+      <PACLRefundChecker />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
